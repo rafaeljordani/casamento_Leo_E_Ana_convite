@@ -1,0 +1,91 @@
+body { 
+
+     margin: 0;
+    padding: 0;
+
+    background-image: url(Convite\ Casamento\ Ana\ Beatriz\ &\ Leonardo\ \(4\).png); 
+    background-size: cover;      /* faz a imagem ocupar a tela inteira */
+    background-position: center; /* centraliza */
+    background-repeat: no-repeat;/* não repete a imagem */
+    height: 100vh;     
+}
+
+
+
+.Voltar
+{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-image: url(quadrado.png);
+    background-color: transparent;
+    background-size: cover;      /* imagem preenchendo */
+    background-position: center;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: absolute;
+    top: 90%;        /* empurra para baixo até o meio */
+    left: 50%;       /* empurra para direita até o meio */
+    transform: translate(-50%, -50%);  /* corrige o centro */  
+
+
+}.mapa-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.mapa {
+    width: 80%;
+    height: 190px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 415px; /* ⬅️ AQUI você controla o quanto desce */
+}
+
+
+/* Seu botão */
+.Voltar {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-image: url(quadrado.png);
+    background-color: transparent;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    top: 99%;     
+    left: 50%;    
+    transform: translate(-50%, -50%);
+}
+
+.local-box
+{
+
+ 
+ 
+    text-align: center;
+    position: absolute;
+    top: 55%;        /* empurra para baixo até o meio */
+    left: 50%;       /* empurra para direita até o meio */
+    transform: translate(-50%, -50%);  /* corrige o centro */  
+  
+
+}
+
+.local-box button {
+    padding: 10px 20px;
+    background-color: #d4b17a;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s;
+}
+

@@ -1,0 +1,69 @@
+body { 
+
+     margin: 0;
+    padding: 0;
+
+    background-image: url(Convite\ Casamento\ Ana\ Beatriz\ &\ Leonardo\ \(1\).png); 
+    background-size: cover;      /* faz a imagem ocupar a tela inteira */
+    background-position: center; /* centraliza */
+    background-repeat: no-repeat;/* não repete a imagem */
+    height: 100vh;     
+    
+}
+
+.Area_Botoes {
+  
+  position: absolute;
+  top: 75%;        /* empurra para baixo até o meio */
+  left: 50%;       /* empurra para direita até o meio */
+  transform: translate(-50%, -50%);  /* corrige o centro */
+  
+  width: 300px;
+  height: 200px;
+
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.botao-quadrado_0 {
+    width: 130px;
+    height: 130px;
+    background-image: url(confirmar_presença.png);
+    background-color: transparent;
+    background-size: cover;      /* imagem preenchendo */
+    background-position: center;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.botao-quadrado_1 {
+    width: 130px;
+    height: 130px;
+    background-image: url(presentes.png); 
+    background-color: transparent;
+    background-size: cover;      /* imagem preenchendo */
+    background-position: center;
+    border: none;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.botao-quadrado_2 {
+    width: 130px;
+    height: 130px;
+    background-image: url(Localização.png); 
+    background-color: transparent;
+    background-size: cover;      /* imagem preenchendo */
+    background-position: center;
+    border: none;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
